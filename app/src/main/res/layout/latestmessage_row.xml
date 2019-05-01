@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="72dp"
+            app:civ_border_width="4dp"
+            android:layout_height="72dp"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/imageView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="44dp"
+            android:layout_marginTop="44dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_alignParentLeft="true"/>
+    <TextView
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/username_latest_message"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp" android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" android:layout_marginRight="244dp" android:layout_marginEnd="244dp"
+            android:layout_marginTop="21dp" android:layout_alignParentTop="true" tools:ignore="HardcodedText"/>
+    <TextView
+
+            android:textColor="@android:color/black"
+            android:text="latest message"
+            android:layout_toRightOf="@id/imageView"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/latestmessage_textview"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="36dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"/>
+</RelativeLayout>
